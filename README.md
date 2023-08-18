@@ -11,4 +11,5 @@ g++ server.cpp -std=c11 -o server
 ./server
 
 g++ client.cpp -std=c++11 -pthread -o client
+
 ./client
